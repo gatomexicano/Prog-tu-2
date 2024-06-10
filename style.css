@@ -1,5 +1,7 @@
+@import url("styles/header.css");
 :root {
     --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
 }
 
 body {
@@ -8,4 +10,12 @@ body {
 
 h1 {
     background-color: white;
+}
+.cabeçalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
